@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LIB_B"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib_a\;CMake Files\lib_b\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_b">
+				<Option output="/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/liblib_b.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/thomasbrearley/CLionProjects/callback-link-issue/lib_b"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 lib_b"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lib_b/fast">
+				<Option output="/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/liblib_b.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/thomasbrearley/CLionProjects/callback-link-issue/lib_b"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 lib_b/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/thomasbrearley/CLionProjects/callback-link-issue/cmake-build-debug/lib_b/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/thomasbrearley/CLionProjects/callback-link-issue/lib_b/implementation.c">
+			<Option target="lib_b"/>
+		</Unit>
+		<Unit filename="/home/thomasbrearley/CLionProjects/callback-link-issue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/thomasbrearley/CLionProjects/callback-link-issue/lib_a/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib_a\"/>
+		</Unit>
+		<Unit filename="/home/thomasbrearley/CLionProjects/callback-link-issue/lib_b/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib_b\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

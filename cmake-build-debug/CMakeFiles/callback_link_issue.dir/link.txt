@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/callback_link_issue.dir/main.c.o -o callback_link_issue  lib_a/liblib_a.a lib_b/liblib_b.a 
